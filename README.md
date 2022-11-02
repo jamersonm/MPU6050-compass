@@ -15,14 +15,17 @@ Multitasking compass on TTGO-Tbeam using MPU6050tbeam
 
 ### Hardware
 #### TTGo-Tbeam
+- The microcontroler board used was TTGo-Tbeam (SDA 21, SCL 22).  
+<img src="https://ae01.alicdn.com/kf/He2f3fd93c57b4f6f9627e38f3d38cb86w.jpg" width="500" height="300" />
 
 #### MPU6050
-
+- Gyroscope and accelerometer sensor
+<img src="https://www.filipeflop.com/wp-content/uploads/2017/07/450xN-13.jpg" width="300" height="300" />
 
 ### Software
 #### MPU6050_light library
 - By .pio file, this library will be automatically imported.  
-- Link to GitHub page [MPU6050_ligth](https://github.com/rfetick/MPU6050_light).  
+- Link to GitHub page [MPU6050_ligth](https://github.com/rfetick/MPU6050_light | width=100)).  
 
 #### Compass
 - At first, was included the dependencies  
@@ -118,8 +121,10 @@ void loop() {
 
 ### Freedom moviment
 - With a MPU6050 gyroscope and accelerometer sensor is possible calculate the acceleration by carrying out an integral acceleration of the object over time and the angular speed of each axis.
-![Freedom moviment](https://www.ceva-dsp.com/wp-content/uploads/sites/3/2018/11/HIL-What-is-an-IMU-wk-1.jpg)  
-- On this experience was requested get yaw coordinate. So, the calculation was about how fast the z-axis orientation changes, in another other, $yaw = \int z_ω dt$
+
+<img src="https://www.ceva-dsp.com/wp-content/uploads/sites/3/2018/11/HIL-What-is-an-IMU-wk-1.jpg" width="500" height="300" />
+
+- On this experience was requested get yaw coordinate. So, the calculation was about how fast the z-axis orientation changes, in another other, $yaw = \int z_ω \ dt$
 
 ### References
 - Rafiq, A., Rohman, W., & Riyanto, S. (2020). Development of a Simple and Low-cost Smartphone Gimbal with MPU-6050 Sensor. Journal of Robotics and Control (JRC), 1(4), 136-140. doi:https://doi.org/10.18196/jrc.1428
